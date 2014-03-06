@@ -1,2 +1,2 @@
-VMHost;Name;Datastore;DiskGB;DiskStorageFormat;MemoryGB;NumCpu;GuestId;Role1
-192.168.0.10;CoolSRV06;LocalDatastore01;40;Thin;4;1;windows8Server64Guest;Server
+VMHost;Name;Datastore;DiskGB;DiskStorageFormat;MemoryGB;NumCpu;GuestId;Role1;EnableDHCP;AdapterCount;IPAddress;Subnet;Gateway;DNS;AdapterName;DNSSuffix
+192.168.0.10;CoolSRV05;LocalDatastore01;40;Thin;4;1;windows8Server64Guest;Server;False;1;192.168.0.65;255.255.255.0;192.168.0.254;192.168.0.61,192.168.0.254;Coolsite LAN;coolsite.local
